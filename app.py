@@ -41,8 +41,8 @@ def search_medicine_multiple(symptoms_input, age, gender, pregnancy, feeding, df
     duration_days = parse_duration(duration)
 
     if duration_days > 7:
-        return (f"⚠️ You are suffering for more than 1 week ({duration}).\n"
-                f"➡️ Please consult a doctor for proper medical advice.")
+        return (f" You are suffering for more than 1 week ({duration}).\n"
+                f" Please consult a doctor for proper medical advice.")
 
     for symptom in symptoms:
         filtered_df = df[
@@ -78,21 +78,21 @@ def search_medicine_multiple(symptoms_input, age, gender, pregnancy, feeding, df
                 custom_med = chosen.lower()
                 if df['Medicine'].str.lower().str.contains(custom_med).any():
                     chosen_meds = [custom_med]
-                    print(f"✅ {custom_med} is a valid medicine found in dataset.")
+                    print(f" {custom_med} is a valid medicine found in dataset.")
                 else:
                     chosen_meds = []
-                    print(f"⚠️ {custom_med} is not found in dataset. Please verify with doctor.")
+                    print(f" {custom_med} is not found in dataset. Please verify with doctor.")
 
             if len(chosen_meds) == len(possible_meds):
                 results.append(f"For '{symptom}' (since {duration}):\n"
-                               f"⚠️ You already used all recommended medicines.\n"
-                               f"➡️ Dosage may need adjustment as per your age. Consult doctor.")
+                               f" You already used all recommended medicines.\n"
+                               f" Dosage may need adjustment as per your age. Consult doctor.")
             elif chosen_meds:
                 results.append(f"For '{symptom}' (since {duration}):\n"
-                               f"✅ You already used: {', '.join(chosen_meds)}")
+                               f" You already used: {', '.join(chosen_meds)}")
             else:
                 results.append(f"For '{symptom}' (since {duration}):\n"
-                               f"⚠️ Invalid medicine entered.\n"
+                               f" Invalid medicine entered.\n"
                                f"Recommended: {', '.join(possible_meds)}")
 
         else:
@@ -103,11 +103,11 @@ def search_medicine_multiple(symptoms_input, age, gender, pregnancy, feeding, df
     # Pregnancy/Feeding warnings
     if gender == "female" and age >= 18:
         if pregnancy == "yes":
-            results.append("\n⚠️ Note: You mentioned pregnancy.\n"
-                           "➡️ Some medicines may not be safe. Please consult a doctor before taking them.")
+            results.append("\n Note: You mentioned pregnancy.\n"
+                           " Some medicines may not be safe. Please consult a doctor before taking them.")
             if feeding == "yes":
-                results.append("\n⚠️ Additional Note: You are feeding a baby.\n"
-                               "➡️ Extra caution required with medicines. Doctor advice strongly recommended.")
+                results.append("\n Additional Note: You are feeding a baby.\n"
+                               " Extra caution required with medicines. Doctor advice strongly recommended.")
 
     return "\n\n".join(results)
 
@@ -126,7 +126,7 @@ while True:
         if age >= 0:
             break
     except ValueError:
-        print("⚠️ Please enter a valid number for age.")
+        print(" Please enter a valid number for age.")
 
 # Gender as M/F
 while True:
@@ -135,7 +135,7 @@ while True:
         gender = "male" if gender_input == "m" else "female"
         break
     else:
-        print("⚠️ Please enter 'M' for Male or 'F' for Female.")
+        print(" Please enter 'M' for Male or 'F' for Female.")
 
 # Pregnancy + Feeding only if female & adult
 pregnancy = "no"
@@ -146,7 +146,7 @@ if gender == "female" and age >= 18:
         if pregnancy in ["yes", "no"]:
             break
         else:
-            print("⚠️ Please answer yes or no.")
+            print(" Please answer yes or no.")
 
     if pregnancy == "yes":
         while True:
@@ -154,7 +154,7 @@ if gender == "female" and age >= 18:
             if feeding in ["yes", "no"]:
                 break
             else:
-                print("⚠️ Please answer yes or no.")
+                print(" Please answer yes or no.")
 
 # Final execution
 output = search_medicine_multiple(symptoms_input, age, gender, pregnancy, feeding, df)
