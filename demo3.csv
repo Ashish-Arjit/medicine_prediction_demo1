@@ -99,3 +99,126 @@ Cough (dry),1-3 years,Dextromethorphan,2.5ml twice daily
 Cough (dry),3-6 years,Dextromethorphan,5ml twice daily
 Cough (dry),6-15 years,Dextromethorphan,5-10ml twice daily
 Cough (dry),Above 15 years,Dextromethorphan,10ml twice daily
+Symptom,Age Group,Medicine,Dosage
+Allergy (skin rash),Below 1 year,Cetirizine,Not recommended
+Allergy (skin rash),1-3 years,Cetirizine,2.5mg daily
+Allergy (skin rash),3-6 years,Cetirizine,5mg daily
+Allergy (skin rash),6-15 years,Cetirizine,10mg daily
+Allergy (skin rash),Above 15 years,Cetirizine,10mg daily
+Constipation,Below 1 year,Lactulose,2.5ml once daily
+Constipation,1-3 years,Lactulose,5ml once daily
+Constipation,3-6 years,Lactulose,5-10ml once daily
+Constipation,6-15 years,Lactulose,10-15ml once daily
+Constipation,Above 15 years,Lactulose,15-30ml once daily
+Indigestion,Below 1 year,Simethicone drops,5-10 drops after feed
+Indigestion,1-3 years,Simethicone drops,10-15 drops after meal
+Indigestion,3-6 years,Simethicone syrup,5ml after meal
+Indigestion,6-15 years,Simethicone syrup,10ml after meal
+Indigestion,Above 15 years,Simethicone tablets,40-80mg after meal
+Weak immunity,Below 1 year,Vitamin D drops,400 IU daily
+Weak immunity,1-3 years,Vitamin D syrup,600 IU daily
+Weak immunity,3-6 years,Vitamin D syrup,600 IU daily
+Weak immunity,6-15 years,Vitamin D tablet,1000 IU daily
+Weak immunity,Above 15 years,Vitamin D tablet,1000-2000 IU daily
+Anemia (tiredness),Below 1 year,Iron drops,2mg/kg daily
+Anemia (tiredness),1-3 years,Iron syrup,15mg elemental iron daily
+Anemia (tiredness),3-6 years,Iron syrup,30mg elemental iron daily
+Anemia (tiredness),6-15 years,Iron tablet,30-60mg daily
+Anemia (tiredness),Above 15 years,Iron tablet,60-100mg daily
+Dehydration (mild),Below 1 year,ORS Solution,50ml after each feed
+Dehydration (mild),1-3 years,ORS Solution,50-100ml after each stool
+Dehydration (mild),3-6 years,ORS Solution,100ml after each stool
+Dehydration (mild),6-15 years,ORS Solution,200ml after each stool
+Dehydration (mild),Above 15 years,ORS Solution,250ml after each stool
+Sore muscles (after exercise),Below 1 year,Not recommended,Not applicable
+Sore muscles (after exercise),1-3 years,Warm compress,Apply 2-3 times daily
+Sore muscles (after exercise),3-6 years,Paracetamol,250mg every 6 hrs if needed
+Sore muscles (after exercise),6-15 years,Paracetamol,500mg every 6 hrs if needed
+Sore muscles (after exercise),Above 15 years,Paracetamol/Ibuprofen,500-650mg every 6-8 hrs if needed
+Appetite loss,Below 1 year,Zinc drops,5mg daily
+Appetite loss,1-3 years,Zinc syrup,10mg daily
+Appetite loss,3-6 years,Zinc syrup,10-20mg daily
+Appetite loss,6-15 years,Zinc tablet,20mg daily
+Appetite loss,Above 15 years,Zinc tablet,20-40mg daily
+Symptom,Age Group,Medicine,Dosage
+Insomnia (trouble sleeping),Below 1 year,Not recommended,Not applicable
+Insomnia (trouble sleeping),1-3 years,Melatonin,Not recommended
+Insomnia (trouble sleeping),3-6 years,Melatonin,0.5-1mg at bedtime
+Insomnia (trouble sleeping),6-15 years,Melatonin,1-3mg at bedtime
+Insomnia (trouble sleeping),Above 15 years,Melatonin,3-5mg at bedtime
+Anxiety (mild),Below 1 year,Not recommended,Not applicable
+Anxiety (mild),1-3 years,Chamomile tea (herbal),Small sip daily
+Anxiety (mild),3-6 years,Chamomile tea (herbal),50ml daily
+Anxiety (mild),6-15 years,Chamomile tea (herbal),100ml daily
+Anxiety (mild),Above 15 years,Chamomile tea / Multivitamin B complex,1 cup or 1 tab daily
+Seasonal allergies (sneezing),Below 1 year,Saline drops,2 drops per nostril
+Seasonal allergies (sneezing),1-3 years,Loratadine,2.5mg daily
+Seasonal allergies (sneezing),3-6 years,Loratadine,5mg daily
+Seasonal allergies (sneezing),6-15 years,Loratadine,10mg daily
+Seasonal allergies (sneezing),Above 15 years,Loratadine,10mg daily
+Skin dryness,Below 1 year,Moisturizing cream,Apply twice daily
+Skin dryness,1-3 years,Moisturizing cream,Apply twice daily
+Skin dryness,3-6 years,Moisturizing cream,Apply twice daily
+Skin dryness,6-15 years,Moisturizing lotion,Apply twice daily
+Skin dryness,Above 15 years,Moisturizing lotion/cream,Apply 2-3 times daily
+Dizziness (mild),Below 1 year,ORS solution,50ml after feed
+Dizziness (mild),1-3 years,ORS solution,50-100ml as needed
+Dizziness (mild),3-6 years,ORS solution,100ml as needed
+Dizziness (mild),6-15 years,ORS solution,200ml as needed
+Dizziness (mild),Above 15 years,ORS solution,250ml as needed
+Hair fall,Below 1 year,Not recommended,Not applicable
+Hair fall,1-3 years,Multivitamin syrup,5ml daily
+Hair fall,3-6 years,Multivitamin syrup,5ml daily
+Hair fall,6-15 years,Biotin supplement,2.5mg daily
+Hair fall,Above 15 years,Biotin supplement,5mg daily
+Dry cough (allergy-related),Below 1 year,Saline drops,2 drops per nostril
+Dry cough (allergy-related),1-3 years,Levosalbutamol syrup,1.25mg twice daily
+Dry cough (allergy-related),3-6 years,Levosalbutamol syrup,2.5mg twice daily
+Dry cough (allergy-related),6-15 years,Levosalbutamol syrup,5ml twice daily
+Dry cough (allergy-related),Above 15 years,Levosalbutamol tablet,2mg twice daily
+Gas / Bloating,Below 1 year,Colic drops (Simethicone),5-10 drops after feed
+Gas / Bloating,1-3 years,Colic syrup,5ml after meal
+Gas / Bloating,3-6 years,Simethicone syrup,5ml after meal
+Gas / Bloating,6-15 years,Simethicone syrup,10ml after meal
+Gas / Bloating,Above 15 years,Simethicone tablet,40-80mg after meal
+Symptom,Age Group,Medicine,Dosage
+Acne (pimples),Below 1 year,Not recommended,Not applicable
+Acne (pimples),1-3 years,Not recommended,Not applicable
+Acne (pimples),3-6 years,Not recommended,Not applicable
+Acne (pimples),6-15 years,Benzoyl peroxide gel,Apply once daily
+Acne (pimples),Above 15 years,Benzoyl peroxide/Clindamycin gel,Apply once or twice daily
+Motion sickness,Below 1 year,Not recommended,Not applicable
+Motion sickness,1-3 years,Dimenhydrinate,Not recommended
+Motion sickness,3-6 years,Dimenhydrinate,12.5mg 1 hr before travel
+Motion sickness,6-15 years,Dimenhydrinate,25mg 1 hr before travel
+Motion sickness,Above 15 years,Dimenhydrinate,25-50mg 1 hr before travel
+Sunburn,Below 1 year,Aloe vera gel,Apply thin layer twice daily
+Sunburn,1-3 years,Aloe vera gel,Apply thin layer twice daily
+Sunburn,3-6 years,Aloe vera gel,Apply thin layer twice daily
+Sunburn,6-15 years,Aloe vera gel/Sunscreen lotion,Apply 2-3 times daily
+Sunburn,Above 15 years,Aloe vera gel/Sunscreen lotion,Apply 2-3 times daily
+Sore lips (chapped lips),Below 1 year,Vaseline,Apply twice daily
+Sore lips (chapped lips),1-3 years,Lip balm (petroleum jelly),Apply twice daily
+Sore lips (chapped lips),3-6 years,Lip balm,Apply 2-3 times daily
+Sore lips (chapped lips),6-15 years,Lip balm with vitamin E,Apply 2-3 times daily
+Sore lips (chapped lips),Above 15 years,Lip balm with vitamin E,Apply 2-3 times daily
+Weak nails,Below 1 year,Not recommended,Not applicable
+Weak nails,1-3 years,Calcium syrup,5ml daily
+Weak nails,3-6 years,Calcium syrup,10ml daily
+Weak nails,6-15 years,Calcium + Vitamin D tablet,1 tablet daily
+Weak nails,Above 15 years,Biotin + Calcium + Vitamin D tablet,1 tablet daily
+Sore eyes (after screen use),Below 1 year,Not recommended,Not applicable
+Sore eyes (after screen use),1-3 years,Artificial tears,1 drop twice daily
+Sore eyes (after screen use),3-6 years,Artificial tears,1 drop twice daily
+Sore eyes (after screen use),6-15 years,Lubricant eye drops,1 drop 2-3 times daily
+Sore eyes (after screen use),Above 15 years,Lubricant eye drops,1 drop 2-3 times daily
+Hiccups (frequent),Below 1 year,Small sips of water,As needed
+Hiccups (frequent),1-3 years,Sips of warm water,As needed
+Hiccups (frequent),3-6 years,Sips of warm water,As needed
+Hiccups (frequent),6-15 years,Domeperidone syrup,5ml twice daily (if severe)
+Hiccups (frequent),Above 15 years,Domeperidone tablet,10mg twice daily (if severe)
+Fatigue (tiredness),Below 1 year,Vitamin D drops,400 IU daily
+Fatigue (tiredness),1-3 years,Multivitamin syrup,5ml daily
+Fatigue (tiredness),3-6 years,Multivitamin syrup,5ml daily
+Fatigue (tiredness),6-15 years,Multivitamin tablet,1 tablet daily
+Fatigue (tiredness),Above 15 years,Vitamin B-complex tablet,1 tablet daily
