@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medicine Recommendation System</title>
+</head>
+<body>
+    <h1>Medicine Recommendation System</h1>
+    <form method="post">
+        <label>Symptoms (comma separated):</label><br>
+        <input type="text" name="symptoms" required><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" name="age" min="0" required><br><br>
+
+        <label>Gender:</label><br>
+        <select name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+
+        <label>Pregnant? (only for females age 18+):</label><br>
+        <select name="pregnancy">
+            <option value="no" selected>No</option>
+            <option value="yes">Yes</option>
+        </select><br><br>
+
+        <label>Feeding Baby? (only if pregnant):</label><br>
+        <select name="feeding">
+            <option value="no" selected>No</option>
+            <option value="yes">Yes</option>
+        </select><br><br>
+
+        <label>Duration of symptoms (e.g. 2 days, 1 week):</label><br>
+        <input type="text" name="duration" required><br><br>
+
+        <input type="submit" value="Get Recommendation">
+    </form>
+
+    {% if result %}
+        <h2>Result:</h2>
+        <pre>{{ result }}</pre>
+    {% endif %}
+</body>
+</html>
