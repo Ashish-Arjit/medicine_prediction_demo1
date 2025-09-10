@@ -112,7 +112,7 @@ def search_medicine_multiple(symptoms_input, age, gender, pregnancy, feeding, df
     return "\n\n".join(results)
 
 
-# ---------------- RUNNING THE PROGRAM ----------------
+
 # Symptoms
 while True:
     symptoms_input = input("Enter your symptoms separated by commas (e.g. Fever, Cough): ").strip()
